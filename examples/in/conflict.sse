@@ -1,0 +1,8 @@
+data: {"type":"RUN_STARTED","threadId":"t","runId":"r"}
+
+data: {"type":"TEXT_MESSAGE_CHUNK","messageId":"m1","role":"assistant","delta":"a"}
+
+data: {"type":"TEXT_MESSAGE_CHUNK","messageId":"m1","role":"user","delta":"b"}
+
+data: {"type":"RUN_FINISHED","threadId":"t","runId":"r"}
+

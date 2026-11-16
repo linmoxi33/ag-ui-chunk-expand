@@ -1,0 +1,12 @@
+data: {"type":"RUN_STARTED","threadId":"t","runId":"r"}
+
+data: {"type":"TEXT_MESSAGE_CHUNK","messageId":"m1","role":"assistant","delta":"hel"}
+
+data: {"type":"TEXT_MESSAGE_CHUNK","messageId":"m1","delta":"lo"}
+
+data: {"type":"TOOL_CALL_CHUNK","toolCallId":"c1","toolCallName":"search","args":"{\"q\":"}
+
+data: {"type":"TOOL_CALL_CHUNK","toolCallId":"c1","args":"\"x\"}"}
+
+data: {"type":"RUN_FINISHED","threadId":"t","runId":"r"}
+

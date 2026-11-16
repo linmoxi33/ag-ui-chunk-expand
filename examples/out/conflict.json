@@ -1,0 +1,44 @@
+{
+  "ok": false,
+  "input_events": 4,
+  "expanded_events": 6,
+  "conflicts": [
+    {
+      "code": "C011",
+      "index": 2,
+      "message": "conflicting role 'assistant' -> 'user'",
+      "messageId": "m1"
+    }
+  ],
+  "events": [
+    {
+      "type": "RUN_STARTED",
+      "threadId": "t",
+      "runId": "r"
+    },
+    {
+      "type": "TEXT_MESSAGE_START",
+      "messageId": "m1",
+      "role": "assistant"
+    },
+    {
+      "type": "TEXT_MESSAGE_CONTENT",
+      "messageId": "m1",
+      "delta": "a"
+    },
+    {
+      "type": "TEXT_MESSAGE_CONTENT",
+      "messageId": "m1",
+      "delta": "b"
+    },
+    {
+      "type": "TEXT_MESSAGE_END",
+      "messageId": "m1"
+    },
+    {
+      "type": "RUN_FINISHED",
+      "threadId": "t",
+      "runId": "r"
+    }
+  ]
+}
